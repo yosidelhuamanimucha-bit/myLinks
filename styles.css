@@ -1,0 +1,29 @@
+h1 {
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .link {
+        transition: transform 0.2s ease;
+        margin-bottom: 1.25rem;
+    }
+
+    .link:hover {
+        transform: scale(1.02);
+    }
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    .bio {
+        max-width: 400px;
+    }
+}
